@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         
         
-        let tabVC = MCWebViewController(url: "http:www.7keyun.com")
+        let tabVC = MCWebViewController(url: "http:www.baidu.com")
 //        let nav = UINavigationController(rootViewController: tabVC)
 //        self.presentViewController(nav, animated: true, completion: nil)
         self.navigationController!.pushViewController(tabVC, animated: true)
